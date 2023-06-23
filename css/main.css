@@ -1,0 +1,181 @@
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 50px;
+    background: url('../img/Фон.jpg') no-repeat top center / cover;
+    
+    height: 100vh;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.main_menu {
+    display: flex;
+    
+    margin-left: auto;
+}
+.main_menu li {
+    margin-right: 45px;
+}
+input[type="search"] {
+    padding: 10px;
+    font-size: 14px;
+    
+}
+/* input[type="search"]::before {
+    content: '\f002';
+    position: absolute;
+    top:0px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+} */
+.search-icon {
+    position: absolute;
+    left: 228px;
+    top: 68px;
+}
+.header_title {
+    text-align: center;
+    font-size: 60px;
+
+}
+.header_subtitle {
+ text-align: center;
+ font-size: 24px;
+}
+.btn {
+   display: block;
+    text-align: center;
+    width: 180px;
+    padding: 15px 8px;
+    border-radius: 100px;
+    background-color: #fff15f;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+.info {
+    background: url('../img/Фон.jpg') no-repeat top center / cover;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.offer-text{
+    display: flex;
+    justify-content: space-between;
+}
+.left  {
+    max-width: 500px;
+}
+.right  {
+    max-width: 500px;
+}
+.left img{
+    width: 550px;
+}
+.header_title{
+    text-align: center;
+    font-size: 60px;
+}
+.right{
+    text-align: center;
+    font-size: 40px; 
+}
+.btn{
+    display: block;
+    text-align: center;
+    width: 280px;
+    padding: 25px 8px;
+    border-radius: 100px;
+    background-color: #fff15f;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+header, 
+.towers {
+    padding-top: 50px;
+    background: url('../img/Фон.jpg') no-repeat top center / cover;
+}
+.top{
+    padding-top: 50px;
+    background: url('../img/Фон.jpg') no-repeat top center / cover;
+}
+.header_Page{
+    text-align: right;
+    font-size: 30px;
+}
+.Veb{
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.had {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.had p {
+    font-size: 18px;
+}
+.towers {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.haight {
+    
+}
+.text {
+    order: -1;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+}
+.Veb{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin-left:auto;
+}
+.top{
+    padding-top: 100px;
+    padding-bottom: 150px;
+} 
+.last{
+    padding-top: 50px;
+    background: url('/img/Фон2.jpg') no-repeat top center / cover
+}
+.top_news {
+    display: flex;
+    justify-content: space-between;
+}
+
