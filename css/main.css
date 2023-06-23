@@ -122,7 +122,7 @@ header,
     background: url('../img/Фон.jpg') no-repeat top center / cover;
 }
 .header_Page{
-    text-align: right;
+    text-align: center;
     font-size: 30px;
 }
 .Veb{
