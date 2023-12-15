@@ -8,58 +8,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
     <header>
-        <div class="container">
             <nav>
-                <form class="search" action="">
-                    <input type="search" placeholder="Пошук">
-                    <i class="fas fa-search search-icon"></i>
-                </form>
+            <img src="img/account.png" alt="account">
+            <img src="img/logo.png" alt="Logo">
                 <ul class="main_menu">
                     <li><a href="#">Головна</a></li>
-                    <li><a href="#">Історичні місця</a></li>
-                    <li><a href="#">Подорожі Україною</a></li>
+                    <li><a href="#">Про проєкт</a></li>
+                    <li><a href="#">Місця</a></li>
+                    <li><a href="#">Галерея</a>
+                    <li><a href="#">Контакти</a>
                 </ul>
             </nav>
-            <h1 class="header_title">Welcome to Ukraine</h1>
-            <p class="header_subtitle">Подорожуй Україною разом з нами</p>
+            <h1 class="header_title">Гусятинщина</h1> 
+            <p class="header_desc">туристична</p>
             <a href="#" class="btn">Дізнатися більше</a>
         </div>
     </header>
     <section class="info">
         <div class="container">
-            <h2 class="header_title">Чим ми займаємося ?</h2>
+            <h2 class="about_title">Про проєкт</h2>
             <div class="offer-text">
                 <div class="left">
-                    <img src="img/Карта України .png" alt="Карта України">
-                <img src="img/Ukrayina-1024x583.jpg" alt="Карта України">
+                    <img src="img/карта Гусятина 2.jpg" alt="Карта Гусятина">
                 </div>
                 <div class="had">
-                    <p>Наша компанія працює над збільшенням туризму в нашій країні. Тому ми створили сайт, щоб чим більше людей взнало про чудові та цікаві місця в Україні.</p>
-                    <a href="#" class="btn">Повернутися на головну </a>
+                    <p>Припустимо, що ви ще не планували відпустку на літо, або думаєте, де провести чергові вихідні чи прийдешні свята. 
+                        Ви любити активний відпочинок, середньовічні замки, синагоги, костели, інші руїни і спартанські умови?
+                        
+                        Ваш вибір - це Гусятинщина! Гусятинський район знаходиться на сході Тернопільщини на правому березі річки Збруч - ментального кордону між заходом і сходом.</p>
+                    <a href="#" class="btn">Залишити вігук </a>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="counter">
+        <div class="counter_a">
+            <p>Кілометрів квадрвтних площі </p>
+             </div>
+                 <div class="counter_b">
+                <p>археологічних пам'яток </p>
+                    </div>
+                        <div class="counter_c">
+                    <p>архітектурних пам'яток</p>
+                </div>
+            <div class="counter_h">
+        <p>об'єктів природньозаповідного фонду </p>
+    </div>
     </section>
     <section class="towers">
         <div class="container">
             <div class="card">
                 <div class="haight">
-                    <img src="img/Сидорів.jpg" alt="Сидорівський замок">
+                    <h3 class="Three_title">Місця</h3>
                 </div>
-               <div class="text">
-               <p class="header_text"> <b>Сидорівський замок</b> — оборонна споруда середини XVII століття, пам'ятка архітектури місцевого значення. Розташований у селі Сидорів, приблизно в 7 кілометрах південніше смт Гусятин Тернопільської області.</p>
-
-               </div>
+             </div>       
+                <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <div><img src="img/Синагога.png" style="width:100%"></div>
+                <div><img src="img/Костел.png" style="width:100%"></div>
+                <div><img src="img/Сидорівський_замок_5.jpg" style="width:100%"></div>
+                <div><img src="img/Сидорівський_замок_5.jpg" style="width:100%"></div>
+                <div><img src="img/Сидорівський_замок_5.jpg" style="width:100%"></div>
             </div>
-            <a href="https://goo.gl/maps/QYXN44cYCFbmusd17" target="_blank" class="btn">Посилання на Google maps</a>
-        </div>
-    </section>
+        </div> 
+    </section>   
+
     <div class="top">
     <div class="container">
-        <h3 class="header_Page">Гусятин-Тернопільська область</h3>
+        <h4 class="header_Page">Гусятин-Тернопільська область</h4>
         <div class="top_news">
             <div class="bike_cross">
                 <img src="img/Вело пробіг 2.jpg" alt="Вело пробіг">
@@ -78,11 +99,8 @@
         </div>
     </div>
 </div>
-    <div class="last">
-        <h4 class="header_Page">Про мене</h4>
-        <p>Автор цього сайту: Мушій Юра</p>
-        <img src="img/kximikx_qr.jpg" alt="Мій Інстаграм">
-        <p>Ви вже ознайомилися з найвидатнішими місцями України. Тому, будемо дуже раді бачити вас гостямми нашого краю.</p>
-    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

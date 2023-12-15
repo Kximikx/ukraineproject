@@ -15,51 +15,54 @@ body {
 
     
 }
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
+
 header {
-    padding-top: 50px;
-    background: url('../img/Фон.jpg') no-repeat top center / cover;
-    
-    height: 100vh;
+    padding-top: 70px;
+    background: url('../img/mainfon.jpg') no-repeat top center / cover !important;
+    padding-top: 220px;
+    padding-bottom: 225px ;
 }
 nav {
     display: flex;
     align-items: center;
-    padding-bottom: 100px;
+    margin-bottom: 220px;
+    
 }
 .main_menu {
     display: flex;
-    
-    margin-left: auto;
+    font-size: 20px;
+    margin-left: 400px;
 }
 .main_menu li {
-    margin-right: 45px;
+    margin-right: 65px;
 }
 input[type="search"] {
     padding: 10px;
     font-size: 14px;
     
 }
-/* input[type="search"]::before {
-    content: '\f002';
-    position: absolute;
-    top:0px;
-    right: 5px;
-    width: 25px;
-    height: 25px;
-} */
 .search-icon {
     position: absolute;
     left: 228px;
     top: 68px;
 }
 .header_title {
-    text-align: center;
+    position: relative;
+    left: 185px;
     font-size: 60px;
-
+    tab-size: 170px;
+    width: 50%;
+    padding-bottom: 220px;
+}
+.header_desc {
+    position: absolute;
+    right: 465px;
+    top: 267px;
+    width: 10%;
+    z-index: 9;
+    font-size: 60px;
+    tab-size: 170px;
+    font-weight: bold;
 }
 .header_subtitle {
  text-align: center;
@@ -72,14 +75,7 @@ input[type="search"] {
     padding: 15px 8px;
     border-radius: 100px;
     background-color: #fff15f;
-    margin: 0 auto;
-    margin-top: 50px;
-   
-}
-.info {
-    background: url('../img/Фон.jpg') no-repeat top center / cover;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    margin: 0 auto; 
 }
 .offer-text{
     display: flex;
@@ -94,8 +90,8 @@ input[type="search"] {
 .left img{
     width: 550px;
 }
-.header_title{
-    text-align: center;
+.about_title{
+    text-align: left;
     font-size: 60px;
 }
 .right{
@@ -115,11 +111,10 @@ input[type="search"] {
 header, 
 .towers {
     padding-top: 50px;
-    background: url('../img/Фон.jpg') no-repeat top center / cover;
+    
 }
 .top{
     padding-top: 50px;
-    background: url('../img/Фон.jpg') no-repeat top center / cover;
 }
 .header_Page{
     text-align: center;
@@ -139,6 +134,7 @@ header,
     justify-content: center;
     align-items: center ;
     flex-direction: column;
+    line-height: 3;
 }
 .had p {
     font-size: 18px;
@@ -149,14 +145,6 @@ header,
 }
 .haight {
     
-}
-.text {
-    order: -1;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 49%;
 }
 .Veb{
     width: 50%;
@@ -173,9 +161,47 @@ header,
 .last{
     padding-top: 50px;
     background: url('/img/Фон2.jpg') no-repeat top center / cover
+    /*text-align: right;*/
 }
 .top_news {
     display: flex;
     justify-content: space-between;
 }
+.Three_title {
+    font-size: 50px;
+    font-family:cursive;
+}
+* {box-sizing:border-box}
 
+/* Slideshow container*/    
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container .slick-prev {
+    position: absolute;
+    bottom: -65px;
+    right: 288px;
+    top: 269px;
+    color: #000 !important;
+
+}
+
+.slideshow-container .slick-next {
+    position: absolute;
+    bottom: -71px;
+    left: 600px;
+    color: #000 !important;
+
+}
+
+
+/*Про проєкт лічильник*/
+
+.couter{
+    display: flex;
+    font-size: 20px;
+    margin-left: 400px; 
+}
