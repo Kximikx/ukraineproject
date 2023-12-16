@@ -175,17 +175,26 @@ header,
     box-sizing:border-box
 }
 /*Слайдер*/
+.slider_container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 .places_slider {
     display: flex;
     justify-content: center;
 }
 .places_item {
     position: relative;
-    margin-right: 20px;
-    width: 363px;
+    margin-right: 10px;
+    width: 362px !important;
 }
 .about {
-    
+   display: block;
+   width: 88px;
+   margin-left: auto;
+}
+.about:hover {
+    border-bottom: 1px solid #000;
 }
 .places_item:last-child {
     margin-right: 0;
@@ -202,6 +211,29 @@ header,
 .places_text h5 {
     font-size: 16px;
 }
+.slider_dots .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider_dots .slick-dots li {
+	margin: 0 10px 0 0;
+}
+.slider_dots .slick-dots button {
+	display: block;
+	width: 10px;
+	height: 10px;
+    line-height: 10px;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: #D9D9D9;
+	text-indent: -9999px;
+}
+.slider_dots .slick-dots li.slick-active button {
+	background-color: #FEE45C;
+}
+.slick-prev
 
 /*Про проєкт лічильник*/
 
