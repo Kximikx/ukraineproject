@@ -200,6 +200,9 @@ header,
 .places_item:last-child {
     margin-right: 0;
 }
+.places_img img {
+    width: 100%;
+}
 .places_text {
     position: absolute;
     left: 10px;

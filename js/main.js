@@ -5,6 +5,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     dots: true,
     appendDots:('.slider_dots'),
-    arrows: false
+    arrows: true,
+    appendArrows:('.slider_buttons')
     });
 });
