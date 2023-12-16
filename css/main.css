@@ -237,7 +237,35 @@ header,
 .slider_dots .slick-dots li.slick-active button {
 	background-color: #FEE45C;
 }
-.slick-prev
+.slider_controlls {
+    margin-top: 45px;
+}
+.slider_buttons {
+   text-align: center;
+   position: relative;
+}
+.slick-next {
+    position: absolute;
+    right: 505px;
+    bottom: -20px;
+    background: url('../img/arrow_right.jpg') no-repeat;
+}
+.slick-prev {
+    position: absolute;
+    left: 535px;
+    bottom: -20px;
+    background: url('../img/arrow_left.png')no-repeat;
+}
+.slick-next, .slick-prev {
+    padding: 0;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 0;
+    border: none;
+    color: inherit;
+}
 
 /*Про проєкт лічильник*/
 
