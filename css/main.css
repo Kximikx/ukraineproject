@@ -178,6 +178,7 @@ header,
 .slider_container {
     max-width: 1120px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 .places_slider {
     display: flex;
@@ -186,7 +187,7 @@ header,
 .places_item {
     position: relative;
     margin-right: 10px;
-    width: 362px !important;
+    width: 364px !important;
 }
 .about {
    display: block;
