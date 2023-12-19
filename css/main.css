@@ -3,12 +3,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @font-face {
-    font-family: "BudujSansTRIAL";
-    src: local("BudujSansTRIAL"), local("BudujSansTRIAL-Black")
-        url('../font/BudujSansTRIAL-Black.otf') format ("opentype");
+    font-family: "Buduj Sans TRIAL";
+    src: local("BudujSansTRIAL-Black")
+         url('../font/BudujSansTRIAL-Black.otf') format ("opentype");
 }
-h1, h2{
-    font-family: 'BudujSansTRIAL';
+@font-face {
+    font-family: "e-Ukraine";
+    src: local("e-Ukraine-Light")
+         url('../font/e-Ukraine-Light.otf') format(opentype);
 }
 
 ul {
@@ -21,7 +23,7 @@ a {
 body {
     margin: 0;
     padding: 0;
-
+    font-family: "e-Ukraine";
     font-size: 14px;
 }
 .container {
@@ -43,7 +45,7 @@ nav {
 }
 .main_menu {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 400px;
 }
 .main_menu li {
@@ -66,7 +68,7 @@ input[type="search"] {
     tab-size: 170px;
     width: 50%;
     padding-bottom: 220px;
-    font-family: Buduj Sans TRIAL;
+    font-family: "Buduj Sans TRIAL";
 }
 .header_desc {
     position: absolute;
@@ -77,8 +79,8 @@ input[type="search"] {
     font-size: 60px;
     tab-size: 170px;
     font-weight: bold;
-    font-family: Buduj Sans TRIAL;
-}
+    font-family: "Buduj Sans TRIAL";
+}    
 .header_subtitle {
  text-align: center;
  font-size: 24px;
@@ -143,6 +145,10 @@ header,
     display: flex;
     justify-content: space-between;
 }
+.about_title {
+    font-family: "Buduj Sans TRIAL";
+    font-size: 40px;
+}
 .had {
     width: 50%;
     display: flex;
@@ -186,6 +192,11 @@ header,
 * { 
     box-sizing:border-box
 }
+.places_header {
+    font-family: "Buduj Sans TRIAL";
+    font-size: 40px;
+}
+
 /*Слайдер*/
 .slider_container {
     max-width: 1120px;
