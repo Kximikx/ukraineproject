@@ -269,8 +269,16 @@ header,
 
 /*Про проєкт лічильник*/
 
-.couter{
+.counter{
     display: flex;
-    font-size: 20px;
-    margin-left: 400px; 
+    justify-content: space-between;
+}
+.counter_item {
+    max-width: 140px;
+}
+.counter_item .point {
+    width: 21px;
+    height: 21px;
+    background-color: #FEE45C;
+    border-radius: 100%;
 }
