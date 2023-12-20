@@ -299,6 +299,7 @@ header,
 .counter_item {
     max-width: 240px;
     font-size: 25px;
+    position: relative;
 }
 .counter_item .point {
     width: 21px;
@@ -307,6 +308,11 @@ header,
     border-radius: 100%;
    /* border-bottom:#000;*/
 }
-.counter_item .line {
-    border-bottom: 1px solid #D9D9D9;
+.counter_item::after {
+    content: '';
+    display: block;
+    width: 370px;
+    color: #D9D9D9;
+    position: absolute;
+    border: 1px solid #D9D9D9;
 }
