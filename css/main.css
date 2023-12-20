@@ -6,11 +6,9 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Buduj Sans TRIAL";
     src: local("BudujSansTRIAL-Black")
          url('../font/BudujSansTRIAL-Black.otf') format ("opentype");
-}
-@font-face {
     font-family: "e-Ukraine";
     src: local("e-Ukraine-Light")
-         url('../font/e-Ukraine-Light.otf') format(opentype);
+         url('../font/e-Ukraine-Light.otf') format ("opentype");
 }
 
 ul {
@@ -301,6 +299,15 @@ header,
     font-size: 25px;
     position: relative;
 }
+.counter_item h5 {
+    font-size: 25px;
+    color: #FEE45C;
+}
+.counter_item p {
+    font-size: 18px;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 2.16px; 
+}
 .counter_item .point {
     width: 21px;
     height: 21px;
@@ -318,6 +325,7 @@ header,
     left: 19px;
     bottom: 10px;
 }
+<<<<<<< HEAD
 .div .counter_item {
     font: 800 40px system-ui;
 
@@ -328,4 +336,8 @@ header,
     text-align: left;
     font-size: 40px; 
     margin: 0% auto;
+}=======
+.counter_item:last-child {
+    overflow-x: hidden;
+>>>>>>> b03a326a1a313ef90981257888533542356dba1c
 }
