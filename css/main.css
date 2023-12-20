@@ -6,11 +6,9 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Buduj Sans TRIAL";
     src: local("BudujSansTRIAL-Black")
          url('../font/BudujSansTRIAL-Black.otf') format ("opentype");
-}
-@font-face {
     font-family: "e-Ukraine";
     src: local("e-Ukraine-Light")
-         url('../font/e-Ukraine-Light.otf') format(opentype);
+         url('../font/e-Ukraine-Light.otf') format ("opentype");
 }
 
 ul {
