@@ -63,7 +63,7 @@ input[type="search"] {
 }
 .header_title {
     position: relative;
-    left: 185px;
+    left: 255px;
     font-size: 60px;
     tab-size: 170px;
     width: 50%;
@@ -317,4 +317,15 @@ header,
     border: 1px solid #D9D9D9;
     left: 19px;
     bottom: 10px;
+}
+.div .counter_item {
+    font: 800 40px system-ui;
+
+    /*Галерея*/
+
+}
+.gallery_title{
+    text-align: left;
+    font-size: 40px; 
+    margin: 0% auto;
 }
