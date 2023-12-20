@@ -301,6 +301,15 @@ header,
     font-size: 25px;
     position: relative;
 }
+.counter_item h5 {
+    font-size: 25px;
+    color: #FEE45C;
+}
+.counter_item p {
+    font-size: 18px;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 2.16px; 
+}
 .counter_item .point {
     width: 21px;
     height: 21px;
@@ -317,4 +326,7 @@ header,
     border: 1px solid #D9D9D9;
     left: 19px;
     bottom: 10px;
+}
+.counter_item:last-child {
+    overflow-x: hidden;
 }
