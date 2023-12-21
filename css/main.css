@@ -349,6 +349,12 @@ header,
     line-height: normal;
     letter-spacing: 4px;
 }
-.coment_box{
-    background-image: url(//img/image\ 10.png);
+.coment{
+    background: url('/img/image\ 10.png') no-repeat top center / cover !important;
+    /*width: 1510px;
+    height: 907px;
+    flex-shrink: 0;*/
+    padding-top: 70px;
+    padding-top: 220px;
+    padding-bottom: 225px ;
 }
