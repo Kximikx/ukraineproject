@@ -330,3 +330,25 @@ header,
     overflow-x: hidden;
 
 }
+/* галерея*/
+.gallery_title{
+    color: #000;
+    font-family: Buduj Sans TRIAL;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+.leave_review{
+   /* color: #FFF;*/
+    font-family: Buduj Sans TRIAL;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+.coment_box{
+    background-image: url(//img/image\ 10.png);
+}
