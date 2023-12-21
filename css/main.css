@@ -325,19 +325,8 @@ header,
     left: 19px;
     bottom: 10px;
 }
-<<<<<<< HEAD
-.div .counter_item {
-    font: 800 40px system-ui;
 
-    /*Галерея*/
-
-}
-.gallery_title{
-    text-align: left;
-    font-size: 40px; 
-    margin: 0% auto;
-}=======
 .counter_item:last-child {
     overflow-x: hidden;
->>>>>>> b03a326a1a313ef90981257888533542356dba1c
+
 }

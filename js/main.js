@@ -8,7 +8,18 @@ $(document).ready(function(){
     arrows: true,
     appendArrows:('.slider_buttons')
     });
+    //Gallery
+    $('.gallery_box').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows:false
+      });
 });
+
+
 //Лічильник
 function animateValue(obj, start, end, duration) {
   let startTimestamp = null;
