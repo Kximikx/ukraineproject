@@ -148,12 +148,16 @@ header,
     font-size: 40px;
 }
 .had {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    flex-direction: column;
-    line-height: 3;
+    width: 762px;
+    height: 279px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: e-Ukraine;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 2.16px;
 }
 .had p {
     font-size: 18px;
@@ -341,7 +345,7 @@ header,
     letter-spacing: 4px;
 }
 .leave_review{
-   /* color: #FFF;*/
+    color: #FFF;
     font-family: Buduj Sans TRIAL;
     font-size: 40px;
     font-style: normal;
@@ -357,4 +361,55 @@ header,
     padding-top: 70px;
     padding-top: 220px;
     padding-bottom: 225px ;
+}
+.nik_box{
+    width: 751px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.19);
+}
+/*footer*/
+.footer{
+    width: 1519px;
+    height: 388px;
+    flex-shrink: 0;
+    background: #3C3C3C;
+}
+.footer_had{
+    width: 153px;
+    height: 62px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Buduj Sans TRIAL;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.menu{
+    width: 158px;
+    height: 147px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Buduj Sans TRIAL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.52px;
+}
+.kontakt{
+    width: 324px;
+    height: 149px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Buduj Sans TRIAL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.52px;
+    text-align: right;
 }
