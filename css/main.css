@@ -44,7 +44,7 @@ nav {
 .main_menu {
     display: flex;
     font-size: 18px;
-    margin-left: 400px;
+    margin-left: 305px;
 }
 .main_menu li {
     margin-right: 65px;
@@ -371,24 +371,25 @@ header,
 }
 /*footer*/
 .footer{
-    width: 1519px;
-    height: 388px;
-    flex-shrink: 0;
     background: #3C3C3C;
 }
-.footer_had{
-    width: 153px;
-    height: 62px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Buduj Sans TRIAL;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 2px;
+.footer_nav {
+    display: flex;
 }
-.menu{
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+}
+.footer_logo h6 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+.footer_menu{
     width: 158px;
     height: 147px;
     flex-shrink: 0;
@@ -401,9 +402,7 @@ header,
     letter-spacing: 2.52px;
 }
 .kontakt{
-    width: 931px;
-    height: 149px;
-    flex-shrink: 0;
+    width: 325px;
     color: #FFF;
     font-family: Buduj Sans TRIAL;
     font-size: 18px;
@@ -411,5 +410,24 @@ header,
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 2.52px;
-    text-align: right;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social li {
+    padding-left: 37px;
+}
+.social li i {
+    font-size: 18px;
+    color: #fff;
+}
+.social li:first-child {
+    padding-left: 0;
+}
+.rights{
+    text-align: center;
+    color: #FFF;
+    font-family: Buduj Sans TRIAL;
+    font-size: 18px;
 }

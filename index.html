@@ -17,19 +17,19 @@
             <img src="img/account.png" alt="account">
             <img src="img/logo.png" alt="Logo">
                 <ul class="main_menu">
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#">Про проєкт</a></li>
+                    <li><a href="#header">Головна</a></li>
+                    <li><a href="#info">Про проєкт</a></li>
                     <li><a href="#places">Місця</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#footer">Контакти</a></li>
                 </ul>
             </nav>
             <h1 class="header_title">Гусятинщина</h1> 
             <p class="header_desc">туристична</p>
-            <a href="#" class="btn">Дізнатися більше</a>
+            <a href="#info" class="btn">Дізнатися більше</a>
         </div>
     </header>
-    <section class="info">
+    <section id="info" class="info">
         <div class="container">
             <h2 class="about_title">Про проєкт</h2>
             <div class="offer-text">
@@ -41,7 +41,7 @@
                         Ви любити активний відпочинок, середньовічні замки, синагоги, костели, інші руїни і спартанські умови?
                         
                         Ваш вибір - це Гусятинщина! Гусятинський район знаходиться на сході Тернопільщини на правому березі річки Збруч - ментального кордону між заходом і сходом.</p>
-                    <a href="#" class="btn">Залишити вігук </a>
+                    <a href="#coment" class="btn">Залишити вігук </a>
                 </div>
             </div>
             <div class="counter">
@@ -124,7 +124,7 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section id="gallery" class="gallery">
         <div class="container">
             <h3 class="gallery_title">Галерея</h3>
         <div class="gallery_box"> 
@@ -138,7 +138,7 @@
         </div>
         </div>
     </section>
-    <section class="coment">
+    <section id="coment" class="coment">
         <div class="container">
             <h4 class="leave_review">Залишити відгук</h4>
             <div class="nik_box">
@@ -153,30 +153,38 @@
          </div>
       </div>
      </section> 
-     <section class="footer">
+     <footer id="footer" class="footer">
         <div class="container">
-        <img src="img/logo.png" alt="Logo">
-        <h6 class="footer_had">Гусятинщина туристична</h6>
-        <div class="kontakt">
-            <p>Контакти</p>
-            <p>gusiatyntravel@gmail.com</p>
-            <p>+38 (066) 405 25 88</p>
-            <p>+38 (068) 385 33 71</p>
+            <div class="footer_nav">
+                <div class="footer_logo">
+                    <img src="img/logo.png" alt="Logo">
+                    <h6 class="footer_had">Гусятинщина туристична</h6>
+                </div>
+    
+                <ul class="footer_menu">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#info">Про проєкт</a></li>
+                    <li><a href="#places">Місця</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#footer">Контакти</a></li>
+                </ul>
+                <div class="kontakt">
+                    <p>Контакти</p>
+                    <p>gusiatyntravel@gmail.com</p>
+                    <p>+38 (066) 405 25 88</p>
+                    <p>+38 (068) 385 33 71</p>
+                </div>
             </div>
-            <ul class="menu">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Про проєкт</a></li>
-                <li><a href="#places">Місця</a></li>
-                <li><a href="#">Галерея</a></li>
-                <li><a href="#">Контакти</a></li>
+            <ul class="social">
+                <li><a href="https://www.instagram.com/kximikx/" target="_blank"></a><i class="fa-brands fa-instagram"></i></li>
+                <li><a href="#"></a><i class="fa-brands fa-youtube"></i></li>
+                <li><a href="#"></a><i class="fa-brands fa-square-facebook"></i></li>                      
             </ul>
-            <div class="letter">
-                <img src="img/icons8-instagram-50 1.jpg" alt="інстаграм">
-                <img src="img/icons8-youtube-play-50 1.png" alt="Ютуб">
-                <img src="img/icons8-facebook-50 1.png" alt="Фейсбук">
-             </div>
-        </div>
-        </section>
+             <div class="rights">  
+            <p>Усі права захищено 2023 | Розробка Юрій Мушій</p>
+            </div>    
+            </div>
+     </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
