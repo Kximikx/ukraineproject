@@ -358,16 +358,38 @@ header,
     /*width: 1510px;
     height: 907px;
     flex-shrink: 0;*/
-    padding-top: 70px;
-    padding-top: 220px;
-    padding-bottom: 225px ;
+    padding-top: 99px;
+    padding-bottom: 225px;
+    
 }
-.nik_box{
-    width: 751px;
-    height: 70px;
-    flex-shrink: 0;
+.coment_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px; 
+
+}
+.coment_box > form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 68px;
+    max-width: 750px;
+    width: 100%;
+}
+input, textarea{
     border-radius: 10px;
     background: rgba(235, 235, 235, 0.19);
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 27px 44px;
+}
+input, textarea, input::placeholder, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.69);
+}
+textarea{
+    resize: none;
+    height: 315px;
 }
 /*footer*/
 .footer{
