@@ -397,6 +397,7 @@ textarea{
 }
 .footer_nav {
     display: flex;
+    flex-wrap: wrap;
 }
 .footer_logo {
     display: flex;
@@ -437,6 +438,7 @@ textarea{
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 2.52px;
+    margin-left: 230px;
 }
 .social{
     display: flex;
@@ -457,6 +459,10 @@ textarea{
     color: #FFF;
     font-family: Buduj Sans TRIAL;
     font-size: 18px;
+}
+.rights p{
+    margin: 0;
+    padding: 0;
 }
 /*Сторінка місця*/
 .place_header {
