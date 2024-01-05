@@ -484,3 +484,25 @@ textarea{
     background-size: cover;
 
 } */
+.place_offer h1{
+    color: #FFF;
+    font-family: Buduj Sans TRIAL;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.7px;
+}
+.place_offer p{
+    color: #FFF;
+    font-family: e-Ukraine;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 44px; 
+}
+.place_offer .btn{
+    color: #000;
+    font-family: e-Ukraine;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.24px;
+}
