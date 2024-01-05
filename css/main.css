@@ -458,3 +458,23 @@ textarea{
     font-family: Buduj Sans TRIAL;
     font-size: 18px;
 }
+/*Сторінка місця*/
+.place_header {
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    background: url('../img/PlaceFon.jpg') no-repeat top center / cover;
+
+}
+/* .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.background > img {
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
