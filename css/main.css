@@ -506,3 +506,15 @@ textarea{
     font-weight: 400;
     letter-spacing: 2.24px;
 }
+.tabs__items{
+    display: flex;
+}
+.tabs__item{
+    flex: 80%;
+    height: 50px;
+    display: flex;
+
+}
+.tabs__block{
+    
+}
