@@ -18,10 +18,10 @@ $(document).ready(function(){
       arrows:false
       });
       //Counter
-      $('#counter').counter('start')({
-        duration: 5000,
-        countFrom:0, 
-        counTo:1000
+      $('.counter').counter({
+        autoStart: true,
+        countFrom: 0,
+        duration: 9000
       });
 });
 

@@ -301,7 +301,7 @@ header,
 
 /*Про проєкт лічильник*/
 
-.counter{
+.counter_box{
     display: flex;
     justify-content: space-between;
 }
@@ -341,6 +341,10 @@ header,
     overflow-x: hidden;
 
 }
+.counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
 /* галерея*/
 .gallery{
     margin-bottom: 80px;
