@@ -41,6 +41,9 @@ nav {
     margin-bottom: 220px;
     
 }
+.account{
+    margin-left: auto;
+}
 .main_menu {
     display: flex;
     font-size: 18px;
@@ -108,6 +111,8 @@ input[type="search"] {
 .about_title{
     text-align: left;
     font-size: 60px;
+    padding-top: 83px;
+    padding-bottom: 74px;
 }
 .right{
     text-align: center;
@@ -158,6 +163,7 @@ header,
     font-weight: 300;
     line-height: 34px;
     letter-spacing: 2.16px;
+    margin-top: 48px;
 }
 .had p {
     font-size: 18px;
@@ -197,6 +203,7 @@ header,
 .places_header {
     font-family: "Buduj Sans TRIAL";
     font-size: 40px;
+    padding-top: 83px;
 }
 
 /*Слайдер*/
@@ -335,6 +342,9 @@ header,
 
 }
 /* галерея*/
+.gallery{
+    margin-bottom: 80px;
+}
 .gallery_title{
     color: #000;
     font-family: Buduj Sans TRIAL;
@@ -343,6 +353,11 @@ header,
     font-weight: 700;
     line-height: normal;
     letter-spacing: 4px;
+    padding-top: 83px;
+    padding-bottom: 53px;
+}
+.gallery_item img:first-child{
+    transform: skewY(13deg);
 }
 .leave_review{
     color: #FFF;
