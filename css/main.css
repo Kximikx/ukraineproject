@@ -360,8 +360,8 @@ header,
     padding-top: 83px;
     padding-bottom: 53px;
 }
-.gallery_item img:first-child{
-    transform: skewY(13deg);
+.gallery_title {
+   gap: 26px;
 }
 .leave_review{
     color: #FFF;
