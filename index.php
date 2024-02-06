@@ -1,3 +1,7 @@
+<?php
+    include ('conf.php');
+
+?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -80,36 +84,6 @@
                         <div class="places_text">
                             <h5>Гусятинська синагога</h5>
                             <p>Збудована орієнтовно на початку XVII ст. Є найцікавішою пам'яткою Гусятина, що збереглася до наших днів.</p>
-                        </div>
-                        <a href="#" class="about">Детальніше</a>
-                    </div>
-                    <div class="places_item">
-                        <div class="places_img">
-                            <img src="img/костел.jpg" alt="Костел">
-                        </div>
-                        <div class="places_text">
-                            <h5>Костел Св. Антонія</h5>
-                            <p>У 1610 році Олександр Валентій Калиновський збудував у Гусятині дерев'яні костел для отців-бернардинів.</p>
-                        </div>
-                        <a href="#" class="about">Детальніше</a>
-                    </div>
-                    <div class="places_item">
-                        <div class="places_img">
-                            <img src="img/замок.jpg" alt="Сидорівський замок">
-                        </div>
-                        <div class="places_text">
-                            <h5>Сидорівський замок</h5>
-                            <p>Точний час його побудови невідомий, але традиційно прийнято вважати, що твердиню збудовано у 1640-х роках.</p>
-                        </div>
-                        <a href="#" class="about">Детальніше</a>
-                    </div>
-                    <div class="places_item">
-                        <div class="places_img">
-                            <img src="http://ukrainaincognita.com/wp-content/uploads/files/gusiatyn18.jpg" alt="Сидорівський замок">
-                        </div>
-                        <div class="places_text">
-                            <h5>Онуфріївська церква</h5>
-                            <p>Збудована орієнтовно у 1600 році. Вона є зразком симбіозу подільської і молдавської архітектурних шкіл, і могла одночасно служити і храмом, і фортецею.</p>
                         </div>
                         <a href="#" class="about">Детальніше</a>
                     </div>
