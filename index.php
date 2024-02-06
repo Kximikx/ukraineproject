@@ -1,6 +1,6 @@
 <?php
     include ('conf.php');
-
+    include ('function.php');
 ?>
 <!DOCTYPE html>
 <html lang="uk">
@@ -77,17 +77,22 @@
            <h2 class="places_header">Місця</h2>
             <div class="slider_container">
                 <div class="places_slider">
+                    <?php
+                        $places=get_places();
+                    ?>   
+                    <?php foreach ($places as $place):  ?>
                     <div class="places_item">
-                        <div class="places_img">
-                            <img src="img/синагога.jpg" alt="Синагога">
-                        </div>
-                        <div class="places_text">
-                            <h5>Гусятинська синагога</h5>
-                            <p>Збудована орієнтовно на початку XVII ст. Є найцікавішою пам'яткою Гусятина, що збереглася до наших днів.</p>
-                        </div>
-                        <a href="#" class="about">Детальніше</a>
+                            <div class="places_img">
+                                <img src="<?= $place ['img'] ?>" alt="Синагога">
+                            </div>
+                            <div class="places_text">
+                                <h5><?= $place ['title'] ?></h5>
+                                <p><?= mb_substr ($place ['article'], 0, 110) ?></p>
+                            </div>
+                            <a href="#" class="about">Детальніше</a>
                     </div>
-               </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
             <div class="slider_controlls">
                 <div class="slider_buttons"></div>
