@@ -34,7 +34,7 @@ header {
     background: url('../img/mainfon.jpg') no-repeat top center / cover !important;
     padding-top: 220px;
     padding-bottom: 225px ;
-}
+} 
 nav {
     display: flex;
     align-items: center;

@@ -87,9 +87,9 @@
                             </div>
                             <div class="places_text">
                                 <h5><?= $place ['title'] ?></h5>
-                                <p><?= mb_substr ($place ['article'], 0, 110) ?></p>
+                                <p><?= $place ['description'] ?></p>
                             </div>
-                            <a href="#" class="about">Детальніше</a>
+                            <a href="place.php?place_id=<?=$place['id']?>" class="about">Детальніше</a>
                     </div>
                     <?php endforeach; ?>
                 </div>
