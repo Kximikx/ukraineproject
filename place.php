@@ -34,13 +34,13 @@
         <div class="place_offer">
             <div class="container">
             <h1><?=$place['title']?></h1>
-            <p>Збудована орієнтовно на початку XVII ст. Є найцікавішою пам'яткою Гусятина, що збереглася до наших днів.</p>
+            <p><?= $place['description'] ?></p>
             <a href="#coment" class="btn">Залишити вігук </a>
             </div>
         </div>
     </section>
     <div class="background">
-        <img src="<?=$place['img']?>" alt="Головний фон">
+        <img src="<?=$place['fon']?>" alt="Головний фон">
     </div> 
     <section class="about_place">
         <div class="container">
